@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56CE1E6416469ABC00AA7D97 /* businesscard.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CE1E6316469ABC00AA7D97 /* businesscard.png */; };
+		56CE1E661646B13300AA7D97 /* cegekaappicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CE1E651646B13200AA7D97 /* cegekaappicon@2x.png */; };
+		56CE1E681646B13600AA7D97 /* cegekaappicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CE1E671646B13600AA7D97 /* cegekaappicon.png */; };
+		56CE1E6A1646B15600AA7D97 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CE1E691646B15600AA7D97 /* Default-Portrait~ipad.png */; };
+		56CE1E6D1646B42F00AA7D97 /* SaveRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE1E6C1646B42E00AA7D97 /* SaveRegistration.m */; };
+		56CE1E701646B8FD00AA7D97 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE1E6F1646B8FD00AA7D97 /* UIImage+Resize.m */; };
+		56CE1E751646B95400AA7D97 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE1E711646B95400AA7D97 /* UIImage+Alpha.m */; };
+		56CE1E761646B95400AA7D97 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE1E741646B95400AA7D97 /* UIImage+RoundedCorner.m */; };
+		56CE1E781646D7B000AA7D97 /* registrations.html in Resources */ = {isa = PBXBuildFile; fileRef = 56CE1E771646D7B000AA7D97 /* registrations.html */; };
+		56F6238C1645DABD00779A27 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F6238B1645DABD00779A27 /* photo.png */; };
+		56F6238E1645E88D00779A27 /* cegekabackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F6238D1645E88D00779A27 /* cegekabackground.png */; };
+		56F6239B16467D0C00779A27 /* CGKCountryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6239A16467D0C00779A27 /* CGKCountryTableViewController.m */; };
+		D0B033C2CFA61BFAB7C6B7B4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B030B1DA9212D6F3293A28 /* Default.png */; };
+		D0B0345E3BDB4CC753415749 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B031D94D40E8A275580DF3 /* SenTestingKit.framework */; };
+		D0B034CBD7FB12B228355633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B03B0B36F837CA1A5AED04 /* Foundation.framework */; };
+		D0B0351EC84ACF469CAD7FBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B0366BC0A704B915C8373D /* InfoPlist.strings */; };
+		D0B036326BF25D41FF505BCF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B034A89FB6B169630F37AC /* MainStoryboard.storyboard */; };
+		D0B037075FBFF1E40242F119 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B0315613DB0688A6F969B5 /* InfoPlist.strings */; };
+		D0B03729F7DEB79D826A5ACB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B0317E0ED637A97782B6A6 /* Default@2x.png */; };
+		D0B037AD7A076320BAB2D2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B03B0B36F837CA1A5AED04 /* Foundation.framework */; };
+		D0B037B2E5B81D01D174F1B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B031B3FC676A1A02A9563F /* UIKit.framework */; };
+		D0B0388A70234295BECA10F4 /* CGKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B035B6E4F08D013BE1B1AB /* CGKViewController.m */; };
+		D0B03C35670FA717EC9D55F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B036AFA769A6AB00BDB009 /* Default-568h@2x.png */; };
+		D0B03C99B5BEEB202FEDED15 /* Cegeka_RegistrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B035C2F7CDBB2531450EEE /* Cegeka_RegistrationTests.m */; };
+		D0B03E041C5C9D258EEB2030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B031E920EF31DFCB2EE2E7 /* main.m */; };
+		D0B03E213BAECF984538DB53 /* CGKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B036ED4126BD9FBBC1A31D /* CGKAppDelegate.m */; };
+		D0B03F52AC949762833F2505 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B03A0094A4B7DC54111619 /* CoreGraphics.framework */; };
+		D0B03F55E7016C3C881B66B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B031B3FC676A1A02A9563F /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B0385F037EFDE73FE8F7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B035280758D7208E80A466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B0302D8EA9AD0C99028EEB;
+			remoteInfo = "Cegeka Registration";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56CE1E6316469ABC00AA7D97 /* businesscard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = businesscard.png; sourceTree = "<group>"; };
+		56CE1E651646B13200AA7D97 /* cegekaappicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cegekaappicon@2x.png"; sourceTree = "<group>"; };
+		56CE1E671646B13600AA7D97 /* cegekaappicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cegekaappicon.png; sourceTree = "<group>"; };
+		56CE1E691646B15600AA7D97 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		56CE1E6B1646B42E00AA7D97 /* SaveRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveRegistration.h; sourceTree = "<group>"; };
+		56CE1E6C1646B42E00AA7D97 /* SaveRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveRegistration.m; sourceTree = "<group>"; };
+		56CE1E6E1646B8FD00AA7D97 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		56CE1E6F1646B8FD00AA7D97 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		56CE1E711646B95400AA7D97 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		56CE1E721646B95400AA7D97 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		56CE1E731646B95400AA7D97 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		56CE1E741646B95400AA7D97 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		56CE1E771646D7B000AA7D97 /* registrations.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = registrations.html; sourceTree = "<group>"; };
+		56F6238B1645DABD00779A27 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		56F6238D1645E88D00779A27 /* cegekabackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cegekabackground.png; sourceTree = "<group>"; };
+		56F6239916467D0C00779A27 /* CGKCountryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGKCountryTableViewController.h; sourceTree = "<group>"; };
+		56F6239A16467D0C00779A27 /* CGKCountryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGKCountryTableViewController.m; sourceTree = "<group>"; };
+		D0B0305EE527344871F64D29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D0B030B1DA9212D6F3293A28 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0B030D6C9F002344C5632B3 /* Cegeka Registration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Cegeka Registration-Info.plist"; sourceTree = "<group>"; };
+		D0B0317E0ED637A97782B6A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0B031B3FC676A1A02A9563F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0B031D94D40E8A275580DF3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0B031E920EF31DFCB2EE2E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0B032481D5B121EC8C45838 /* Cegeka RegistrationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cegeka RegistrationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B032F7126530902D1762CB /* Cegeka Registration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cegeka Registration-Prefix.pch"; sourceTree = "<group>"; };
+		D0B03347EDD7FF73D99496E9 /* Cegeka Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cegeka Registration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B0348967BEECF0ECA47A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0B035B6E4F08D013BE1B1AB /* CGKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGKViewController.m; sourceTree = "<group>"; };
+		D0B035C2F7CDBB2531450EEE /* Cegeka_RegistrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cegeka_RegistrationTests.m; sourceTree = "<group>"; };
+		D0B0366845EE20D48878D422 /* Cegeka_RegistrationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cegeka_RegistrationTests.h; sourceTree = "<group>"; };
+		D0B036AFA769A6AB00BDB009 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0B036ED4126BD9FBBC1A31D /* CGKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGKAppDelegate.m; sourceTree = "<group>"; };
+		D0B03811AFE95C683E320000 /* CGKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGKViewController.h; sourceTree = "<group>"; };
+		D0B038F36B997B7B2A82F595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0B03A0094A4B7DC54111619 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0B03A61EF23C078FB0BFE0C /* Cegeka RegistrationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Cegeka RegistrationTests-Info.plist"; sourceTree = "<group>"; };
+		D0B03B0B36F837CA1A5AED04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0B03E74EF4EC2878A271449 /* CGKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGKAppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B0306B10C129E6D5A77FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B03F55E7016C3C881B66B3 /* UIKit.framework in Frameworks */,
+				D0B037AD7A076320BAB2D2A9 /* Foundation.framework in Frameworks */,
+				D0B03F52AC949762833F2505 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B038CCA990A9745B0D2B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0345E3BDB4CC753415749 /* SenTestingKit.framework in Frameworks */,
+				D0B037B2E5B81D01D174F1B1 /* UIKit.framework in Frameworks */,
+				D0B034CBD7FB12B228355633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B0317CE5F2C09FEAB6EB99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B03A61EF23C078FB0BFE0C /* Cegeka RegistrationTests-Info.plist */,
+				D0B0315613DB0688A6F969B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B031A2984FF7DA7F92D41F /* Cegeka RegistrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0317CE5F2C09FEAB6EB99 /* Supporting Files */,
+				D0B0366845EE20D48878D422 /* Cegeka_RegistrationTests.h */,
+				D0B035C2F7CDBB2531450EEE /* Cegeka_RegistrationTests.m */,
+			);
+			path = "Cegeka RegistrationTests";
+			sourceTree = "<group>";
+		};
+		D0B03310CB4B26663AE41432 = {
+			isa = PBXGroup;
+			children = (
+				56CE1E691646B15600AA7D97 /* Default-Portrait~ipad.png */,
+				56CE1E671646B13600AA7D97 /* cegekaappicon.png */,
+				56CE1E651646B13200AA7D97 /* cegekaappicon@2x.png */,
+				D0B0399058F64942DAF99172 /* Products */,
+				D0B033132ABD87516CFD0E9E /* Frameworks */,
+				D0B0368D4D76E6C7E4FFCF45 /* Cegeka Registration */,
+				D0B031A2984FF7DA7F92D41F /* Cegeka RegistrationTests */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B033132ABD87516CFD0E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0B031B3FC676A1A02A9563F /* UIKit.framework */,
+				D0B03B0B36F837CA1A5AED04 /* Foundation.framework */,
+				D0B03A0094A4B7DC54111619 /* CoreGraphics.framework */,
+				D0B031D94D40E8A275580DF3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B0368D4D76E6C7E4FFCF45 /* Cegeka Registration */ = {
+			isa = PBXGroup;
+			children = (
+				D0B037EFDCBE1DC69DB007B0 /* Supporting Files */,
+				D0B03E74EF4EC2878A271449 /* CGKAppDelegate.h */,
+				56CE1E6E1646B8FD00AA7D97 /* UIImage+Resize.h */,
+				56CE1E6F1646B8FD00AA7D97 /* UIImage+Resize.m */,
+				56CE1E711646B95400AA7D97 /* UIImage+Alpha.m */,
+				56CE1E721646B95400AA7D97 /* UIImage+Alpha.h */,
+				56CE1E731646B95400AA7D97 /* UIImage+RoundedCorner.h */,
+				56CE1E741646B95400AA7D97 /* UIImage+RoundedCorner.m */,
+				D0B036ED4126BD9FBBC1A31D /* CGKAppDelegate.m */,
+				D0B034A89FB6B169630F37AC /* MainStoryboard.storyboard */,
+				D0B03811AFE95C683E320000 /* CGKViewController.h */,
+				D0B035B6E4F08D013BE1B1AB /* CGKViewController.m */,
+				56F6239916467D0C00779A27 /* CGKCountryTableViewController.h */,
+				56F6239A16467D0C00779A27 /* CGKCountryTableViewController.m */,
+				56CE1E6B1646B42E00AA7D97 /* SaveRegistration.h */,
+				56CE1E6C1646B42E00AA7D97 /* SaveRegistration.m */,
+			);
+			path = "Cegeka Registration";
+			sourceTree = "<group>";
+		};
+		D0B037EFDCBE1DC69DB007B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56CE1E771646D7B000AA7D97 /* registrations.html */,
+				56CE1E6316469ABC00AA7D97 /* businesscard.png */,
+				56F6238D1645E88D00779A27 /* cegekabackground.png */,
+				56F6238B1645DABD00779A27 /* photo.png */,
+				D0B030D6C9F002344C5632B3 /* Cegeka Registration-Info.plist */,
+				D0B0366BC0A704B915C8373D /* InfoPlist.strings */,
+				D0B031E920EF31DFCB2EE2E7 /* main.m */,
+				D0B032F7126530902D1762CB /* Cegeka Registration-Prefix.pch */,
+				D0B030B1DA9212D6F3293A28 /* Default.png */,
+				D0B0317E0ED637A97782B6A6 /* Default@2x.png */,
+				D0B036AFA769A6AB00BDB009 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B0399058F64942DAF99172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B03347EDD7FF73D99496E9 /* Cegeka Registration.app */,
+				D0B032481D5B121EC8C45838 /* Cegeka RegistrationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B0302D8EA9AD0C99028EEB /* Cegeka Registration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B038B04D38B33D602895A8 /* Build configuration list for PBXNativeTarget "Cegeka Registration" */;
+			buildPhases = (
+				D0B03356E8F880727E923463 /* Sources */,
+				D0B0306B10C129E6D5A77FD3 /* Frameworks */,
+				D0B03B84ACD6E8C9B1C3AFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cegeka Registration";
+			productName = "Cegeka Registration";
+			productReference = D0B03347EDD7FF73D99496E9 /* Cegeka Registration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B03C74EE533683254ADD2B /* Cegeka RegistrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B030A89F81C2961629C357 /* Build configuration list for PBXNativeTarget "Cegeka RegistrationTests" */;
+			buildPhases = (
+				D0B0351374DFAAB96FFAF40B /* Sources */,
+				D0B038CCA990A9745B0D2B6B /* Frameworks */,
+				D0B03E32B10D7C2354551A1E /* Resources */,
+				D0B03375361E7E293DA1CA37 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B0337B412684E3B43089D2 /* PBXTargetDependency */,
+			);
+			name = "Cegeka RegistrationTests";
+			productName = "Cegeka RegistrationTests";
+			productReference = D0B032481D5B121EC8C45838 /* Cegeka RegistrationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B035280758D7208E80A466 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D0B03CCA64B9C797C1072BC4 /* Build configuration list for PBXProject "Cegeka Registration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0B03310CB4B26663AE41432;
+			productRefGroup = D0B0399058F64942DAF99172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B0302D8EA9AD0C99028EEB /* Cegeka Registration */,
+				D0B03C74EE533683254ADD2B /* Cegeka RegistrationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B03B84ACD6E8C9B1C3AFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0351EC84ACF469CAD7FBC /* InfoPlist.strings in Resources */,
+				D0B033C2CFA61BFAB7C6B7B4 /* Default.png in Resources */,
+				D0B03729F7DEB79D826A5ACB /* Default@2x.png in Resources */,
+				D0B03C35670FA717EC9D55F5 /* Default-568h@2x.png in Resources */,
+				D0B036326BF25D41FF505BCF /* MainStoryboard.storyboard in Resources */,
+				56F6238C1645DABD00779A27 /* photo.png in Resources */,
+				56F6238E1645E88D00779A27 /* cegekabackground.png in Resources */,
+				56CE1E6416469ABC00AA7D97 /* businesscard.png in Resources */,
+				56CE1E661646B13300AA7D97 /* cegekaappicon@2x.png in Resources */,
+				56CE1E681646B13600AA7D97 /* cegekaappicon.png in Resources */,
+				56CE1E6A1646B15600AA7D97 /* Default-Portrait~ipad.png in Resources */,
+				56CE1E781646D7B000AA7D97 /* registrations.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B03E32B10D7C2354551A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B037075FBFF1E40242F119 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0B03375361E7E293DA1CA37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B03356E8F880727E923463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B03E041C5C9D258EEB2030 /* main.m in Sources */,
+				D0B03E213BAECF984538DB53 /* CGKAppDelegate.m in Sources */,
+				D0B0388A70234295BECA10F4 /* CGKViewController.m in Sources */,
+				56F6239B16467D0C00779A27 /* CGKCountryTableViewController.m in Sources */,
+				56CE1E6D1646B42F00AA7D97 /* SaveRegistration.m in Sources */,
+				56CE1E701646B8FD00AA7D97 /* UIImage+Resize.m in Sources */,
+				56CE1E751646B95400AA7D97 /* UIImage+Alpha.m in Sources */,
+				56CE1E761646B95400AA7D97 /* UIImage+RoundedCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B0351374DFAAB96FFAF40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B03C99B5BEEB202FEDED15 /* Cegeka_RegistrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B0337B412684E3B43089D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B0302D8EA9AD0C99028EEB /* Cegeka Registration */;
+			targetProxy = D0B0385F037EFDE73FE8F7D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B0315613DB0688A6F969B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B038F36B997B7B2A82F595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0B034A89FB6B169630F37AC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B0305EE527344871F64D29 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B0366BC0A704B915C8373D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B0348967BEECF0ECA47A42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B030CE2199E653ED7FD0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "${PRODUCT_NAME}";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B030CF37ECC6619068F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "${PRODUCT_NAME}";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D0B0351B1269D40BED7137D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cegeka Registration.app/Cegeka Registration";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cegeka Registration/Cegeka Registration-Prefix.pch";
+				INFOPLIST_FILE = "Cegeka RegistrationTests/Cegeka RegistrationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0B035E5851F2113F9FCC81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cegeka Registration/Cegeka Registration-Prefix.pch";
+				INFOPLIST_FILE = "Cegeka Registration/Cegeka Registration-Info.plist";
+				PRODUCT_NAME = "Cegeka Registration";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0B03910D175C6DF02D43CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cegeka Registration/Cegeka Registration-Prefix.pch";
+				INFOPLIST_FILE = "Cegeka Registration/Cegeka Registration-Info.plist";
+				PRODUCT_NAME = "Cegeka Registration";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0B03F375DB79B0E5694A0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cegeka Registration.app/Cegeka Registration";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cegeka Registration/Cegeka Registration-Prefix.pch";
+				INFOPLIST_FILE = "Cegeka RegistrationTests/Cegeka RegistrationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B030A89F81C2961629C357 /* Build configuration list for PBXNativeTarget "Cegeka RegistrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B03F375DB79B0E5694A0DC /* Release */,
+				D0B0351B1269D40BED7137D9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B038B04D38B33D602895A8 /* Build configuration list for PBXNativeTarget "Cegeka Registration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B035E5851F2113F9FCC81F /* Release */,
+				D0B03910D175C6DF02D43CD4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B03CCA64B9C797C1072BC4 /* Build configuration list for PBXProject "Cegeka Registration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B030CE2199E653ED7FD0B2 /* Release */,
+				D0B030CF37ECC6619068F054 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B035280758D7208E80A466 /* Project object */;
+}
