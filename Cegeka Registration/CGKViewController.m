@@ -47,6 +47,7 @@
 }
 
 - (IBAction) clear {
+    [NSObject cancelPreviousPerformRequestsWithTarget:self];
     self.nameTextfield.text = @"";
     self.emailTextfield.text = @"";
     self.photoImageview.image = [UIImage imageNamed:@"photo"];
