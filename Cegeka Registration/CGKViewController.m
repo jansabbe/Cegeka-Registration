@@ -20,7 +20,8 @@
 @property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGestureOnImage;
 
 @property (weak, nonatomic) IBOutlet UILabel *tapToTakePhotoLabel;
-@property (weak) UIPopoverController* countryPopoverController;
+@property (weak, nonatomic) UIPopoverController* countryPopoverController;
+@property (strong, nonatomic) NSRegularExpression* validEmailExpression;
 @end
 
 @implementation CGKViewController
@@ -43,6 +44,10 @@
     self.nameTextfield.delegate = self;
     self.emailTextfield.delegate = self;
     
+    self.validEmailExpression = [NSRegularExpression regularExpressionWithPattern:@"^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$"
+                                                                          options:0
+                                                                            error:NULL];
+    
     [self clear];
 }
 
@@ -60,17 +65,33 @@
 }
 
 - (IBAction)saveRegistration {
-    self.registrationFeedbackLabel.hidden = NO;
-    [self setAllEnabled:NO];
+    if ([self isValidEmail]) {
+        self.registrationFeedbackLabel.hidden = NO;
+        [self setAllEnabled:NO];
+        
+        [SaveRegistration saveRegistrationWithName:self.nameTextfield.text
+                                             email:self.emailTextfield.text
+                                           country:self.countryButton.currentTitle
+                                             photo:self.photoImageview.image];
+        
+        [self performSelector:@selector(clear) withObject:self afterDelay:3];
+    } else {
+        NSString *errorMessage = [NSString stringWithFormat:@"'%@' is invalid. Please enter a valid e-mail address", self.emailTextfield.text];
+        [[[UIAlertView alloc] initWithTitle:@"Invalid e-mail"
+                                    message:errorMessage
+                                   delegate:nil
+                          cancelButtonTitle:@"OK"
+                          otherButtonTitles: nil] show];
+    }
     
-    [SaveRegistration saveRegistrationWithName:self.nameTextfield.text
-                                         email:self.emailTextfield.text
-                                       country:self.countryButton.currentTitle
-                                         photo:self.photoImageview.image];
-    
-    [self performSelector:@selector(clear) withObject:self afterDelay:3];
 }
 
+- (BOOL) isValidEmail {
+    NSUInteger nbMatches = [self.validEmailExpression numberOfMatchesInString:self.emailTextfield.text
+                                                                      options:0
+                                                                        range:NSMakeRange(0, [self.emailTextfield.text length])];
+    return nbMatches > 0;
+}
 
 # pragma mark - Enter in text fields
 
